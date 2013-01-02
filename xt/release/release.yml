@@ -1,1 +1,9 @@
---- {}
+---
+pod_spelling_system:
+  stopwords:
+    - url
+
+pod_coverage:
+  private:
+    - Authen::Simple::PlugAuth#check
+    - Authen::Simple::PlugAuth#init
