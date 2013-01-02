@@ -48,12 +48,18 @@ Returns true on success and false on failure.
 
 =cut 
 
+sub init
+{
+  my($self, $param) = @_;
+  $self->SUPER::init($param);
+  $self->{client} = PlugAuth::Client::Tiny->new( url => $self->url );
+  $self;
+}
+
 sub check
 {
   my($self, $username, $password) = @_;
-  $DB::single = 1;
-  my $client = $self->{client} //= PlugAuth::Client::Tiny->new( url => $self->url );
-  $client->auth($username, $password) ? 1 : 0;
+  $self->{client}->auth($username, $password) ? 1 : 0;
 }
 
 1;
