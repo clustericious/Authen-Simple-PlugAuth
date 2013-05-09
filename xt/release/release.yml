@@ -2,6 +2,7 @@
 pod_spelling_system:
   stopwords:
     - url
+    - PlugAuth
 
 pod_coverage:
   private:
