@@ -16,13 +16,13 @@ Simple PlugAuth authentication
 
 # DESCRIPTION
 
-Authenticate against a [PlugAuth](http://search.cpan.org/perldoc?PlugAuth) server through the Authen::Simple framework.
+Authenticate against a [PlugAuth](https://metacpan.org/pod/PlugAuth) server through the Authen::Simple framework.
 
 # ATTRIBUTES
 
 ## url
 
-The URL of the [PlugAuth](http://search.cpan.org/perldoc?PlugAuth) server to connect to.
+The URL of the [PlugAuth](https://metacpan.org/pod/PlugAuth) server to connect to.
 
 # METHODS
 
@@ -32,7 +32,7 @@ Returns true on success and false on failure.
 
 # SEE ALSO
 
-[Authen::Simple](http://search.cpan.org/perldoc?Authen::Simple), [PlugAuth](http://search.cpan.org/perldoc?PlugAuth), [PlugAuth::Client](http://search.cpan.org/perldoc?PlugAuth::Client).
+[Authen::Simple](https://metacpan.org/pod/Authen::Simple), [PlugAuth](https://metacpan.org/pod/PlugAuth), [PlugAuth::Client](https://metacpan.org/pod/PlugAuth::Client).
 
 # AUTHOR
 
