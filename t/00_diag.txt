@@ -1,0 +1,4 @@
+Authen::Simple::Adapter
+ExtUtils::MakeMaker
+PlugAuth::Client::Tiny
+Test::More
