@@ -22,11 +22,15 @@ Authenticate against a [PlugAuth](https://metacpan.org/pod/PlugAuth) server thro
 
 ## url
 
+    my $url = $auth->url;
+
 The URL of the [PlugAuth](https://metacpan.org/pod/PlugAuth) server to connect to.
 
 # METHODS
 
-## $auth->authenticate( $username, $password )
+## authenticate
+
+    my $bool = $auth->authenticate( $username, $password )
 
 Returns true on success and false on failure.
 
@@ -36,7 +40,7 @@ Returns true on success and false on failure.
 
 # AUTHOR
 
-Graham Ollis <plicease@cpan.org>
+Graham Ollis &lt;plicease@cpan.org>
 
 # COPYRIGHT AND LICENSE
 

@@ -28,6 +28,8 @@ Authenticate against a L<PlugAuth> server through the Authen::Simple framework.
 
 =head2 url
 
+ my $url = $auth->url;
+
 The URL of the L<PlugAuth> server to connect to.
 
 =cut
@@ -42,7 +44,9 @@ __PACKAGE__->options({
 
 =head1 METHODS
 
-=head2 $auth-E<gt>authenticate( $username, $password )
+=head2 authenticate
+
+ my $bool = $auth->authenticate( $username, $password )
 
 Returns true on success and false on failure.
 
