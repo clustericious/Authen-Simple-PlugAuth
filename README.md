@@ -1,4 +1,4 @@
-# Authen::Simple::PlugAuth [![Build Status](https://secure.travis-ci.org/plicease/Authen-Simple-PlugAuth.png)](http://travis-ci.org/plicease/Authen-Simple-PlugAuth)
+# Authen::Simple::PlugAuth [![Build Status](https://secure.travis-ci.org/clustericious/Authen-Simple-PlugAuth.png)](http://travis-ci.org/clustericious/Authen-Simple-PlugAuth)
 
 Simple PlugAuth authentication
 
