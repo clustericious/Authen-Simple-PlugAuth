@@ -22,6 +22,11 @@ use PlugAuth::Client::Tiny;
  
 =head1 DESCRIPTION
 
+B<NOTE>: Development for this tool is winding down, and L<PlugAuth::Client::Tiny>
+and modules that depend on are deprecated.  Please contact me ASAP if you depend
+on this tool. This distribution may be removed from CPAN, but not before
+june 30, 2018.
+
 Authenticate against a L<PlugAuth> server through the Authen::Simple framework.
 
 =head1 ATTRIBUTES

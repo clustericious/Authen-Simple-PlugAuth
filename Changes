@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Deprecated.  Subject to removal after 30 June 2018.
 
 0.02      2015-12-01 11:26:38 -0500
   - Documentation improvements

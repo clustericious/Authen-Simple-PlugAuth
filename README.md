@@ -16,6 +16,11 @@ Simple PlugAuth authentication
 
 # DESCRIPTION
 
+**NOTE**: Development for this tool is winding down, and [PlugAuth::Client::Tiny](https://metacpan.org/pod/PlugAuth::Client::Tiny)
+and modules that depend on are deprecated.  Please contact me ASAP if you depend
+on this tool. This distribution may be removed from CPAN, but not before
+june 30, 2018.
+
 Authenticate against a [PlugAuth](https://metacpan.org/pod/PlugAuth) server through the Authen::Simple framework.
 
 # ATTRIBUTES
