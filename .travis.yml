@@ -2,7 +2,7 @@ language: perl
 install:
   - cpanm -n Authen::Simple::Adapter
   - cpanm -n PlugAuth::Client::Tiny
-script: HARNESS_IS_VERBOSE=1 prove -lvr t xt
+script: HARNESS_IS_VERBOSE=1 prove -lvr t 
 perl:
   - "5.26"
   - "5.24"
